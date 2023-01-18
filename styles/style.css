@@ -4,7 +4,7 @@
     --White: hsl(0, 0%, 100%);
     --LightGray: hsl(212, 45%, 89%);
     --GrayishBlue: hsl(220, 15%, 55%);
-    --DarkBlue: hsl(218, 44%, 2);
+    --DarkBlue: hsl(218, 44%, 25%);
 }
 
 * {
@@ -18,6 +18,7 @@ body {
 
     font-family: 'Outfit', sans-serif;
     background-color: var(--LightGray);
+    font-size: 0.9375rem;
 }
 
 .container {
@@ -44,10 +45,11 @@ body {
 .info-container {
     width: 90%;
     padding-left: 1rem;
+    text-align: center;
 }
 
 .info-container p {
-    text-align:center;
+    text-align: center;
     padding-bottom: 1rem;
 }
 
@@ -55,6 +57,7 @@ body {
     font-weight: 700;
     color: var(--DarkBlue);
     font-size: 1.2rem;
+    padding-bottom: 1rem;
 }
 
 .info {
